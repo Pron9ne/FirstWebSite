@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+}
+
+
+
+body {
+
+font-family: 'Montserrat Alternates', sans-serif;
+margin: 0;
+padding: 0;
+background: url(bg.jpg) no-repeat;
+background-size: cover;
+
+}
+
+
+
+section .box {
+    padding: 50px;
+    max-width: 600px;
+    margin: 20px auto 20px auto;
+    
+    box-shadow: 0px 5px 15px rgba(0,0,0, .5);
+    overflow: hidden;
+    color: black;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+section .box:hover {
+    background-color: rgba(90, 57, 19, 0.118);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.822);
+}
+
+
+
+.img {
+    display: flex;
+    padding: 20px;
+    margin: 70px auto 20px auto;
+    justify-content:center;
+}
+
+
+.shadow-1 {
+    box-shadow: 2px 2px 5px;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+.shadow-1:hover {
+    box-shadow: 3px 3px 10px;    
+}
+
+.box.connect {
+    color: white;
+}
+
+.box.list {
+    color: white;
+}
+
+.box.table {
+    color: white;
+}
+
+.social-icons {
+    text-align: center;
+    }  
+  .social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    
+    }
+  .social-icons li a {
+    border-bottom: none;
+    }
+  .social-icons li img {
+    width:50px;
+    height:50px;
+    margin-right: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.451); 
+    border-radius: 12px;
+    
+  }
+
+  .social-icons li img:hover {
+    cursor: pointer;
+    animation: bounce 1s;
+  }
+
+
+ table {
+      width: 100%;
+  }
+  
+ .table td{
+     text-align: center;
+     padding: 5px;
+     border: 1px solid;
+
+ }
+ .table td:hover{
+     background-color:rgba(90, 57, 19, 0.295);
+ }
+ .table th{
+     padding: 10px;
+     border: 1px solid;
+     font-size: 17px;
+     background-color: rgba(0, 0, 0, 0.274);
+ }
+
+ .box.list ul{
+    list-style: none;
+ }
+ .box.list h2{
+     text-align: center;
+ }
+ .box.list ul li{
+     padding-bottom: 10px;
+     font-size: 18px;
+     text-align: center;
+     
+ }
+
+ .allright {
+     color: white;
+     font-size: 12px;
+     text-align: center;
+ }
+
+ .btn {
+     padding: 10px 20px;
+     font-size: 16px;     
+     margin: 10px;
+     margin-bottom: 0;
+     box-shadow: 0px 5px 15px black;
+     background-color: rgba(56, 56, 56, 0.267);
+     border: none;
+     border-radius: 10px;
+     color: white;
+     cursor: pointer;
+     font-family: 'Montserrat Alternates', sans-serif;
+ }
+ .btn:hover {
+     background-color: rgba(90, 57, 19, 0.295);
+     box-shadow: 0 0 15px white;
+     transition: .2s;
+ }
+ 
+ .box.connect {
+     text-align: center;
+ }
+
+ #name {
+     margin: 0 0 15px 10px ;
+     padding: 10px;
+     background-color: rgba(0, 0, 0, 0.253);
+    border: 1px;
+    box-shadow: 0px 5px 15px black;
+    color: white;
+ }
+ #email {
+    margin: 0 0 35px 10px ;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.253);
+    border: 1px;
+    box-shadow: 0px 5px 15px black;
+    color: white;
+ }
+ #message {
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.253);
+    border: 1px;
+    box-shadow: 0px 5px 15px black;
+    color: white;
+ }
+
+ 
